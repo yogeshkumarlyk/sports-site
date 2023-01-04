@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>YK SPORTS</title>
+</head>
+<header>
+    <div class="head">
+        <h1>YK SPORTS</h1>
+    </div>
+</header>
+<body>
+    <div class="main">
+        <div class="lhs">
+            <!-- <h2 class="filters">FILTERS</h2> -->
+            <div class="brand">
+                <h3>BRAND</h3>
+                <form class="form1" id="f1">
+                    <input type="checkbox" id="sg" name="SG" class="check" value="Bat" onclick="ValidateBrandSelection()" >
+                    <label for="bat1"> SG</label><br>
+                    <input type="checkbox" id="gm" name="GM" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                    <label for="bat2"> GM</label><br>
+                    <input type="checkbox" id="ss" name="SS" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                    <label for="bat3"> SS</label><br>
+                    <input type="checkbox" id="mrf" name="MRF" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                    <label for="bat4"> MRF</label><br>
+                    <input type="checkbox" id="ceat" name="CEAT" class="check"value="Bat" onclick="ValidateBrandSelection()">
+                    <label for="bat5"> CEAT</label><br>
+                    <input type="checkbox" id="bas" name="BAS" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                    <label for="bat6"> BAS vampire</label><br>
+                    <input type="checkbox" id="kookabura" name="KOOKABURA" class="check" value="Bat" onclick="ValidateBrandSelection()">
+                    <label for="bat7"> Kookabura</label><br>
+                    <input type="checkbox" id="nb" name="NB" value="Bat" class="check" onclick="ValidateBrandSelection()">
+                    <label for="bat8"> New Balance</label><br>
+                    <input type="checkbox" id="bas" name="DSC" value="Bat" class="check" onclick="ValidateBrandSelection()">
+                    <label for="bat9"> DSC</label><br><br>
+                  </form>
+            </div>
+            <div class="bat-type">
+                <h3>TYPE</h3>
+                <form class="form2" id="f2">
+                    <input type="checkbox" id="kashmir" name="Kashmir" value="Btype" onclick="ValidateTypeSelection()">
+                    <label for="btype1"> Kashmir willow</label><br>
+                    <input type="checkbox" id="english" name="English" value="Btype" onclick="ValidateTypeSelection()">
+                    <label for="btype2"> English willow</label><br>
+                    <input type="checkbox" id="tbat" name="tbat" value="Btype" onclick="ValidateTypeSelection()">
+                    <label for="btype3"> Tennis ball Bats</label><br>
+                    <input type="checkbox" id="fiber" name="fiber" value="Btype" onclick="ValidateTypeSelection()">
+                    <label for="btype4"> Fiber Bats</label><br>
+                    <input type="checkbox" id="halfwidth" name="halfwidth" value="Btype"onclick="ValidateTypeSelection()">
+                    <label for="btype5"> Half width Bats</label><br><br>
+                  </form>
+            </div>
+            <div class="size">
+                <h3>SIZE</h3>   
+                <form class="form3" id="f3">
+                    <input type="checkbox" id="s1" name="1"  onclick="ValidateSizeSelection()">
+                    <label for="s1"> 1</label><br>
+                    <input type="checkbox" id="s2" name="2"  onclick="ValidateSizeSelection()">
+                    <label for="s2"> 2</label><br>
+                    <input type="checkbox" id="s3" name="3"  onclick="ValidateSizeSelection()">
+                    <label for="s3"> 3</label><br>
+                    <input type="checkbox" id="s4" name="4"  onclick="ValidateSizeSelection()">
+                    <label for="s4"> 4</label><br>
+                    <input type="checkbox" id="s5" name="5"  onclick="ValidateSizeSelection()">
+                    <label for="s5"> 5</label><br>
+                    <input type="checkbox" id="s6" name="6"  onclick="ValidateSizeSelection()">
+                    <label for="s6"> 6</label><br>
+                    <input type="checkbox" id="short" name="short" onclick="ValidateSizeSelection()">
+                    <label for="short"> Short Hand</label><br>
+                    <input type="checkbox" id="long" name="long" onclick="ValidateSizeSelection()">
+                    <label for="long"> Long Hand</label><br>
+                  </form>
+            </div>
+        </div>
+        <div class="rhs">
+            <div class="rhsFilter">
+                <div class="sortby">
+                    <p>Sort By</p>
+                </div>
+                <div class="pop">
+                    <p onclick="displayByPopularity()">Popularity</p>
+                </div>
+                <div class="lth">
+                    <!--<button onclick="dataSort()">Price-Low to High</button> -->
+                     <p onclick="displayByLowToHigh()">Price-Low to High</p> 
+                </div>
+                <div class="htl"> 
+                    <p onclick="displayByHighToLow()">Price-High to low</p>
+                </div>
+            </div>
+            <div id="content">
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <!--<script src="first.js"></script>    -->
+    <!-- <script src="second.js"></script> -->
+</body>
+</html>

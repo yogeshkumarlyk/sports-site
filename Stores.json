@@ -1,0 +1,240 @@
+{
+    "Stores": [
+        {
+           "title": "SG English willow ",
+           "discount":"20% off",
+           "size": "1",   
+           "Brand":"SG",
+           "type":"English",
+           "price":"10000",
+           "popularity":"5",
+           "pic":"./bat images/SG_EN.jpg"
+        },
+        {
+            "title": "SG Kashmir willow cricket Bat",
+            "discount":"30% off",
+            "size": "2",
+            "Brand":"SG",
+            "type":"Kashmir",
+            "price":"5000",
+            "popularity":"4",
+            "pic":"./bat images/SG_KN.jpg"
+        },
+        {
+            "title": "SS English willow cricket Bat",
+            "discount":"45% off",
+            "size": "3",
+            "Brand":"SS",
+            "type":"English",
+            "price":"5000",
+            "popularity":"5",
+            "pic":"./bat images/SS_EN.jpg"
+        },
+        {
+            "title": "SS Kashmir willow cricket Bat",
+            "discount":"20% off",
+            "size": "4",
+            "Brand":"SS",
+            "type":"Kashmir",
+            "price":"2500",
+            "popularity":"3",
+            "pic":"./bat images/SS_KN.jpg"
+        },
+        {
+            "title": "MRF English willow cricket Bat",
+            "discount":"10% off",
+            "size": "5",
+            "Brand":"MRF",
+            "type":"English",
+            "price":"5000",
+            "popularity":"4",
+            "pic":"./bat images/MRF_EN.jpg"
+        },
+        {
+            "title": "MRF Kashmir willow cricket Bat",
+            "discount":"35% off",
+            "size": "6",
+            "Brand":"MRF",
+            "type":"Kashmir",
+            "price":"4500",
+            "popularity":"2",
+            "pic":"./bat images/MRF_KN.jpg"
+        },
+        {
+            "title": "GM English willow cricket Bat",
+            "discount":"40% off",
+            "size": "6",
+            "Brand":"GM",
+            "type":"English",
+            "price":"6500",
+            "popularity":"3",
+            "pic":"./bat images/GM_EN.jpg"
+        },
+        {
+            "title": "GM Kashmir willow cricket Bat",
+            "discount":"20% off",
+            "size": "6",
+            "Brand":"GM",
+            "type":"Kashmir",
+            "price":"3500",
+            "popularity":"4",
+            "pic":"./bat images/GM_KN.jpg"
+        },
+        {
+            "title": "CEAT Kashmir willow cricket Bat",
+            "discount":"60% off",
+            "size": "6",
+            "Brand":"CEAT",
+            "type":"Kashmir",
+            "price":"5500",
+            "popularity":"3",
+            "pic":"./bat images/CEAT_KN.jpg"
+        },
+        {
+            "title": "CEAT English willow cricket Bat",
+            "discount":"35% off",
+            "size": "6",
+            "Brand":"CEAT",
+            "type":"English",
+            "price":"4500",
+            "popularity":"4",
+            "pic":"./bat images/CEAT_EN.jpg"
+        },
+        {
+            "title": "DSC Kashmir willow cricket Bat",
+            "discount":"40% off",
+            "size": "6",
+            "Brand":"DSC",
+            "type":"Kashmir",
+            "price":"3500",
+            "popularity":"3",
+            "pic":"./bat images/DSC_KN.jpg"
+        },
+        {
+            "title": "DSC English willow cricket Bat",
+            "discount":"30% off",
+            "size": "short",
+            "Brand":"DSC",
+            "type":"English",
+            "price":"2500",
+            "popularity":"5",
+            "pic":"./bat images/DSC_EN.jpg"
+        },
+        {
+            "title": "NEW Balance English willow",
+            "discount":"20% off",
+            "size": "short",   
+            "Brand":"NB",
+            "type":"English",
+            "price":"10000",
+            "popularity":"5",
+            "pic":"./bat images/NB_EN.jpg"
+         },
+         {
+             "title": "New Balance Kashmir willow ",
+             "discount":"10% off",
+             "size": "long",
+             "Brand":"NB",
+             "type":"Kashmir",
+             "price":"5000",
+             "popularity":"4",
+             "pic":"./bat images/NB_KN.jpg"
+         },
+         {
+            "title": "Kookabura English willow ",
+            "discount":"20% off",
+            "size": "long",   
+            "Brand":"KOOKABURA",
+            "type":"English",
+            "price":"10000",
+            "popularity":"5",
+            "pic":"./bat images/KOOKA_EN.jpg"
+         },
+         {
+             "title": "Kookabura Kashmir willow",
+             "discount":"40% off",
+             "size": "2",
+             "Brand":"KOOKABURA",
+             "type":"Kashmir",
+             "price":"5000",
+             "popularity":"3",
+             "pic":"./bat images/KOOKA_KN.jpg"
+         },
+         {
+            "title": "BAS Vampire English willow",
+            "discount":"30% off",
+            "size": "1",   
+            "Brand":"BAS",
+            "type":"English",
+            "price":"10000",
+            "popularity":"4",
+            "pic":"./bat images/BAS_EN.jpg"
+         },
+         {
+             "title": "BAS Vampire Kashmir willow",
+             "discount":"18% off",
+             "size": "2",
+             "Brand":"BAS",
+             "type":"Kashmir",
+             "price":"5000",
+             "popularity":"3",
+             "pic":"./bat images/BAS_KN.jpg"
+         },
+         {
+            "title": "Tennis ball bat",
+            "discount":"50% off",
+            "size": "1",   
+            "type":"tbat",
+            "price":"1200",
+            "popularity":"4",
+            "pic":"./bat images/TN.jpg"
+         },
+         {
+             "title": "Tennis ball Bat",
+             "discount":"60% off",
+             "size": "2",
+             "type":"tbat",
+             "price":"1500",
+             "popularity":"3",
+             "pic":"./bat images/TN_2.jpg"
+         },
+         {
+            "title": "Fiber Bat",
+            "discount":"45% off",
+            "size": "1",   
+            "type":"fiber",
+            "price":"2000",
+            "popularity":"5",
+            "pic":"./bat images/FIBER.jpg"
+         },
+         {
+             "title": "Fiber Bat",
+             "discount":"60% off",
+             "size": "2",
+             "type":"fiber",
+             "price":"1600",
+             "popularity":"4",
+             "pic":"./bat images/FIBER_2.jpg"
+         },
+         {
+            "title": "Half width Bat",
+            "discount":"30% off",
+            "size": "1",   
+            "type":"halfwidth",
+            "price":"2100",
+            "popularity":"3",
+            "pic":"./bat images/HW.jpg"
+         },
+         {
+             "title": "Half width Bat",
+             "discount":"25% off",
+             "size": "2",
+             "type":"halfwidth",
+             "price":"3600",
+             "popularity":"2",
+             "pic":"./bat images/HW_2.jpg"
+         }
+        
+        
+    ]
+}

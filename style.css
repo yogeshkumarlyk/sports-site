@@ -1,0 +1,73 @@
+/*body{
+    background-color: darkslateblue;
+} */
+.head{
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%; 
+
+}
+.main{
+    display: flex;
+    
+}
+.lhs{
+    float: left;
+    width: 15%;
+    border: 2px solid rgb(156, 142, 142);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    background-color: #fff;
+}
+.rhs{
+
+    margin-left:40px;
+    width: 85%;
+    border-radius: 5px;
+}
+.rhsFilter{
+    display: flex;
+    width: 100%;
+    background-color: lawngreen;
+}
+.sortby,.popularity,.lth,.htl{
+    padding-left: 20px;
+}
+#content{
+    margin-top: 4%;
+
+}
+/*.bat-data {
+    float: left;
+    height: 12px;
+    width: 35%;
+    padding-left: 500px;
+    padding-right: 50px;
+    background-color: yellowgreen;
+
+   
+} 
+.bat-data>img{
+
+    height: 4vw;
+}*/
+.Bat-data{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 275px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    float: left;
+    transition: transform 0.5s;
+    border-radius: 2%;
+    background-color: #fff;
+}
+.Bat-data:hover{
+    background-color:papayawhip;
+    transform:translateY(-5px); 
+}
+.Bat-data>img{
+    height: 270px;
+    width: 100%;   
+}
